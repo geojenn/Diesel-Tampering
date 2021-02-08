@@ -1,0 +1,12 @@
+name: HDD-Analysis
+title: HDD-Analysis
+username:
+account: jennifer-s
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3444459
+bundleId: 4185291
+url: https://jennifer-s.shinyapps.io/HDD-Analysis/
+when: 1612538749.1349
+asMultiple: FALSE
+asStatic: FALSE

@@ -1,0 +1,21 @@
+.navbar-brand {
+  height: 75px;
+  font-size: 18pt;
+}
+.navbar-nav {
+  height: 75px;
+  font-size: 14pt;
+}
+.navbar-nav li {
+  height: 75px;
+  display: table;
+}
+.navbar-nav li a {
+  height: 75px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.nav-tabs {
+  font-size: 10pt;
+}
