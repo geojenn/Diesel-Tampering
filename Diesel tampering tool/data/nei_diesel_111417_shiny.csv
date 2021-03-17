@@ -1,0 +1,540 @@
+State,Vehicle_type,Value,Year
+CT,Combination Long-haul Trucks,5906.2167,2011
+DC,Combination Long-haul Trucks,291.066,2011
+DE,Combination Long-haul Trucks,1370.3753,2011
+MA,Combination Long-haul Trucks,12969.808700000001,2011
+MD,Combination Long-haul Trucks,15734.404900000001,2011
+ME,Combination Long-haul Trucks,5815.0561,2011
+NC,Combination Long-haul Trucks,24322.3244,2011
+NH,Combination Long-haul Trucks,2349.6767,2011
+NJ,Combination Long-haul Trucks,14882.7346,2011
+NY,Combination Long-haul Trucks,17221.6819,2011
+PA,Combination Long-haul Trucks,40803.4561,2011
+RI,Combination Long-haul Trucks,1093.822,2011
+VA,Combination Long-haul Trucks,41337.0653,2011
+VT,Combination Long-haul Trucks,3246.8508,2011
+WV,Combination Long-haul Trucks,10701.4072,2011
+CT,Combination Short-haul Trucks,3139.1444,2011
+DC,Combination Short-haul Trucks,427.08050000000003,2011
+DE,Combination Short-haul Trucks,1970.2593,2011
+MA,Combination Short-haul Trucks,6652.8836,2011
+MD,Combination Short-haul Trucks,12793.3094,2011
+ME,Combination Short-haul Trucks,4288.4166,2011
+NC,Combination Short-haul Trucks,22115.4934,2011
+NH,Combination Short-haul Trucks,1582.5923,2011
+NJ,Combination Short-haul Trucks,5990.9176,2011
+NY,Combination Short-haul Trucks,11154.5271,2011
+PA,Combination Short-haul Trucks,27848.4064,2011
+RI,Combination Short-haul Trucks,1008.3675,2011
+VA,Combination Short-haul Trucks,20552.9969,2011
+VT,Combination Short-haul Trucks,1124.0018,2011
+WV,Combination Short-haul Trucks,6146.7039,2011
+CT,Intercity Buses,88.477,2011
+DC,Intercity Buses,142.36739999999998,2011
+DE,Intercity Buses,644.6319,2011
+MA,Intercity Buses,234.394,2011
+MD,Intercity Buses,284.8077,2011
+ME,Intercity Buses,683.3907,2011
+NC,Intercity Buses,4117.6521,2011
+NH,Intercity Buses,143.4796,2011
+NJ,Intercity Buses,7128.5863,2011
+NY,Intercity Buses,4758.1536,2011
+PA,Intercity Buses,984.81,2011
+RI,Intercity Buses,53.3034,2011
+VA,Intercity Buses,2982.2005,2011
+VT,Intercity Buses,336.7475,2011
+WV,Intercity Buses,223.8106,2011
+CT,Light Commercial Trucks,535.3397,2011
+DC,Light Commercial Trucks,76.2209,2011
+DE,Light Commercial Trucks,169.0221,2011
+MA,Light Commercial Trucks,1000.8512,2011
+MD,Light Commercial Trucks,937.4234,2011
+ME,Light Commercial Trucks,138.7984,2011
+NC,Light Commercial Trucks,2944.0984,2011
+NH,Light Commercial Trucks,24.2161,2011
+NJ,Light Commercial Trucks,1231.9533999999999,2011
+NY,Light Commercial Trucks,1424.2514,2011
+PA,Light Commercial Trucks,1740.9507,2011
+RI,Light Commercial Trucks,111.5526,2011
+VA,Light Commercial Trucks,595.4263,2011
+VT,Light Commercial Trucks,59.3011,2011
+WV,Light Commercial Trucks,285.3976,2011
+CT,Motor Homes,19.2615,2011
+DC,Motor Homes,5.6572000000000005,2011
+DE,Motor Homes,5.9452,2011
+MA,Motor Homes,63.2025,2011
+MD,Motor Homes,44.485,2011
+ME,Motor Homes,52.2123,2011
+NC,Motor Homes,157.9642,2011
+NH,Motor Homes,161.4998,2011
+NJ,Motor Homes,226.0509,2011
+NY,Motor Homes,396.8556,2011
+PA,Motor Homes,374.0148,2011
+RI,Motor Homes,5.8369,2011
+VA,Motor Homes,59.4461,2011
+VT,Motor Homes,7.597,2011
+WV,Motor Homes,36.5756,2011
+CT,Passenger Cars,93.4787,2011
+DC,Passenger Cars,6.4562,2011
+DE,Passenger Cars,13.8459,2011
+MA,Passenger Cars,91.92960000000001,2011
+MD,Passenger Cars,171.711,2011
+ME,Passenger Cars,45.780699999999996,2011
+NC,Passenger Cars,168.0018,2011
+NH,Passenger Cars,45.3485,2011
+NJ,Passenger Cars,101.5971,2011
+NY,Passenger Cars,437.2937,2011
+PA,Passenger Cars,131.9452,2011
+RI,Passenger Cars,28.0944,2011
+VA,Passenger Cars,146.9253,2011
+VT,Passenger Cars,22.7314,2011
+WV,Passenger Cars,51.8089,2011
+CT,Passenger Trucks,458.4721,2011
+DC,Passenger Trucks,64.6304,2011
+DE,Passenger Trucks,150.51729999999998,2011
+MA,Passenger Trucks,887.9934000000001,2011
+MD,Passenger Trucks,824.8533,2011
+ME,Passenger Trucks,115.0453,2011
+NC,Passenger Trucks,2331.5368,2011
+NH,Passenger Trucks,153.0696,2011
+NJ,Passenger Trucks,1113.9950000000001,2011
+NY,Passenger Trucks,3230.8077,2011
+PA,Passenger Trucks,1336.3311,2011
+RI,Passenger Trucks,91.14280000000001,2011
+VA,Passenger Trucks,497.1379,2011
+VT,Passenger Trucks,67.9822,2011
+WV,Passenger Trucks,275.9603,2011
+CT,Refuse Trucks,90.85730000000001,2011
+DC,Refuse Trucks,52.933699999999995,2011
+DE,Refuse Trucks,36.8094,2011
+MA,Refuse Trucks,124.2234,2011
+MD,Refuse Trucks,231.5352,2011
+ME,Refuse Trucks,133.1144,2011
+NC,Refuse Trucks,285.3712,2011
+NH,Refuse Trucks,399.3477,2011
+NJ,Refuse Trucks,3768.8227,2011
+NY,Refuse Trucks,436.6532,2011
+PA,Refuse Trucks,935.2413,2011
+RI,Refuse Trucks,16.8826,2011
+VA,Refuse Trucks,604.0011,2011
+VT,Refuse Trucks,14.238199999999999,2011
+WV,Refuse Trucks,267.5835,2011
+CT,School Buses,80.7949,2011
+DC,School Buses,34.554700000000004,2011
+DE,School Buses,76.1552,2011
+MA,School Buses,92.8985,2011
+MD,School Buses,688.4674,2011
+ME,School Buses,327.9929,2011
+NC,School Buses,2031.9104,2011
+NH,School Buses,157.0859,2011
+NJ,School Buses,4118.8825,2011
+NY,School Buses,3244.583,2011
+PA,School Buses,420.21770000000004,2011
+RI,School Buses,27.9156,2011
+VA,School Buses,1677.9487,2011
+VT,School Buses,138.1401,2011
+WV,School Buses,197.3139,2011
+CT,Single Unit Long-haul Trucks,51.2444,2011
+DC,Single Unit Long-haul Trucks,24.4844,2011
+DE,Single Unit Long-haul Trucks,23.0967,2011
+MA,Single Unit Long-haul Trucks,170.9839,2011
+MD,Single Unit Long-haul Trucks,363.9708,2011
+ME,Single Unit Long-haul Trucks,121.7517,2011
+NC,Single Unit Long-haul Trucks,539.7543000000001,2011
+NJ,Single Unit Long-haul Trucks,860.5794999999999,2011
+NY,Single Unit Long-haul Trucks,1768.7029,2011
+PA,Single Unit Long-haul Trucks,903.1701,2011
+RI,Single Unit Long-haul Trucks,10.1656,2011
+VA,Single Unit Long-haul Trucks,497.8319,2011
+VT,Single Unit Long-haul Trucks,18.3319,2011
+WV,Single Unit Long-haul Trucks,223.0387,2011
+CT,Single Unit Short-haul Trucks,697.1641999999999,2011
+DC,Single Unit Short-haul Trucks,399.03499999999997,2011
+DE,Single Unit Short-haul Trucks,321.6252,2011
+MA,Single Unit Short-haul Trucks,1755.8582000000001,2011
+MD,Single Unit Short-haul Trucks,2681.8231,2011
+ME,Single Unit Short-haul Trucks,2122.3277,2011
+NC,Single Unit Short-haul Trucks,4355.138,2011
+NH,Single Unit Short-haul Trucks,2794.1482,2011
+NJ,Single Unit Short-haul Trucks,9735.528,2011
+NY,Single Unit Short-haul Trucks,27750.6307,2011
+PA,Single Unit Short-haul Trucks,11202.1992,2011
+RI,Single Unit Short-haul Trucks,202.463,2011
+VA,Single Unit Short-haul Trucks,3892.0584,2011
+VT,Single Unit Short-haul Trucks,216.8435,2011
+WV,Single Unit Short-haul Trucks,1278.5836,2011
+CT,Transit Buses,109.4132,2011
+DC,Transit Buses,213.8698,2011
+DE,Transit Buses,153.3278,2011
+MA,Transit Buses,275.4936,2011
+MD,Transit Buses,478.35179999999997,2011
+ME,Transit Buses,140.2403,2011
+NC,Transit Buses,799.9287999999999,2011
+NH,Transit Buses,428.3914,2011
+NJ,Transit Buses,1694.9946,2011
+NY,Transit Buses,5595.3459,2011
+PA,Transit Buses,1699.3977,2011
+RI,Transit Buses,13.4428,2011
+VA,Transit Buses,674.1547,2011
+VT,Transit Buses,279.3759,2011
+WV,Transit Buses,104.0177,2011
+CT,Combination Long-haul Trucks,2198.511568962,2017
+DC,Combination Long-haul Trucks,72.56543805,2017
+DE,Combination Long-haul Trucks,1493.445920882,2017
+MA,Combination Long-haul Trucks,4682.978496441,2017
+MD,Combination Long-haul Trucks,8850.05800331,2017
+ME,Combination Long-haul Trucks,2738.41845655,2017
+NC,Combination Long-haul Trucks,12148.77483927,2017
+NH,Combination Long-haul Trucks,785.317878364,2017
+NJ,Combination Long-haul Trucks,9287.82133098,2017
+NY,Combination Long-haul Trucks,14852.84523184,2017
+PA,Combination Long-haul Trucks,26523.32311995,2017
+RI,Combination Long-haul Trucks,954.4222673950001,2017
+VA,Combination Long-haul Trucks,16094.58467393,2017
+VT,Combination Long-haul Trucks,535.584206235,2017
+WV,Combination Long-haul Trucks,2911.165401221,2017
+CT,Combination Short-haul Trucks,692.64711194,2017
+DC,Combination Short-haul Trucks,47.648339774,2017
+DE,Combination Short-haul Trucks,1040.920296,2017
+MA,Combination Short-haul Trucks,2097.6723950699998,2017
+MD,Combination Short-haul Trucks,2526.0629390999998,2017
+ME,Combination Short-haul Trucks,1494.1708684,2017
+NC,Combination Short-haul Trucks,6959.303902,2017
+NH,Combination Short-haul Trucks,50.768709152999996,2017
+NJ,Combination Short-haul Trucks,5903.7696786,2017
+NY,Combination Short-haul Trucks,4823.4918584,2017
+PA,Combination Short-haul Trucks,8445.764108,2017
+RI,Combination Short-haul Trucks,302.02307114,2017
+VA,Combination Short-haul Trucks,3381.7648081,2017
+VT,Combination Short-haul Trucks,547.54516458,2017
+WV,Combination Short-haul Trucks,1963.5599234000001,2017
+CT,Intercity Buses,54.691762492,2017
+DC,Intercity Buses,117.713890273,2017
+DE,Intercity Buses,89.939674061,2017
+MA,Intercity Buses,930.7964972799999,2017
+MD,Intercity Buses,1273.884889343,2017
+ME,Intercity Buses,361.622486977,2017
+NC,Intercity Buses,5270.182824456,2017
+NH,Intercity Buses,115.671348473,2017
+NJ,Intercity Buses,1090.3282765269998,2017
+NY,Intercity Buses,2966.1351085320002,2017
+PA,Intercity Buses,177.086454214,2017
+RI,Intercity Buses,148.723636198,2017
+VA,Intercity Buses,2758.673080041,2017
+VT,Intercity Buses,25.900852391,2017
+WV,Intercity Buses,615.100067636,2017
+CT,Light Commercial Trucks,157.662113339,2017
+DC,Light Commercial Trucks,41.641240272999994,2017
+DE,Light Commercial Trucks,38.807906933,2017
+MA,Light Commercial Trucks,244.661132798,2017
+MD,Light Commercial Trucks,273.17067351,2017
+ME,Light Commercial Trucks,69.634282321,2017
+NC,Light Commercial Trucks,676.86475507,2017
+NH,Light Commercial Trucks,75.856305511,2017
+NJ,Light Commercial Trucks,352.19930554,2017
+NY,Light Commercial Trucks,1661.5903319699999,2017
+PA,Light Commercial Trucks,572.12382031,2017
+RI,Light Commercial Trucks,10.382539071,2017
+VA,Light Commercial Trucks,820.31000813,2017
+VT,Light Commercial Trucks,34.292176675,2017
+WV,Light Commercial Trucks,122.446691385,2017
+CT,Motor Homes,4.609967575,2017
+DC,Motor Homes,1.820839902,2017
+DE,Motor Homes,10.760669680000001,2017
+MA,Motor Homes,360.447882613,2017
+MD,Motor Homes,46.292031625,2017
+ME,Motor Homes,22.903405063,2017
+NC,Motor Homes,52.212774795,2017
+NH,Motor Homes,43.459878816999996,2017
+NJ,Motor Homes,37.576523243,2017
+NY,Motor Homes,77.357924199,2017
+PA,Motor Homes,589.9293730320001,2017
+RI,Motor Homes,24.338521647,2017
+VA,Motor Homes,16.622396199,2017
+VT,Motor Homes,11.230754209999999,2017
+WV,Motor Homes,51.187795189,2017
+CT,Passenger Cars,49.030860063,2017
+DC,Passenger Cars,3.456506009,2017
+DE,Passenger Cars,7.0648732889999994,2017
+MA,Passenger Cars,58.008059976,2017
+MD,Passenger Cars,72.245014763,2017
+ME,Passenger Cars,21.602637352,2017
+NC,Passenger Cars,124.60898004299999,2017
+NH,Passenger Cars,19.380187294,2017
+NJ,Passenger Cars,60.422379385,2017
+NY,Passenger Cars,112.005063204,2017
+PA,Passenger Cars,113.795677818,2017
+RI,Passenger Cars,19.628853461,2017
+VA,Passenger Cars,136.86070117,2017
+VT,Passenger Cars,11.148561873,2017
+WV,Passenger Cars,14.842030662,2017
+CT,Passenger Trucks,514.9274424500001,2017
+DC,Passenger Trucks,16.886258867000002,2017
+DE,Passenger Trucks,128.75810945,2017
+MA,Passenger Trucks,737.07056353,2017
+MD,Passenger Trucks,1297.30370066,2017
+ME,Passenger Trucks,347.60194963,2017
+NC,Passenger Trucks,3687.6283562,2017
+NH,Passenger Trucks,332.01243617,2017
+NJ,Passenger Trucks,883.1404639,2017
+NY,Passenger Trucks,749.14047115,2017
+PA,Passenger Trucks,2837.5964678,2017
+RI,Passenger Trucks,120.82406719299999,2017
+VA,Passenger Trucks,2458.7967805,2017
+VT,Passenger Trucks,173.406133884,2017
+WV,Passenger Trucks,945.19250102,2017
+CT,Refuse Trucks,21.935398261,2017
+DC,Refuse Trucks,19.683823041,2017
+DE,Refuse Trucks,38.737871536,2017
+MA,Refuse Trucks,330.04434298800004,2017
+MD,Refuse Trucks,177.799084855,2017
+ME,Refuse Trucks,179.750208299,2017
+NC,Refuse Trucks,262.090750382,2017
+NH,Refuse Trucks,110.783337258,2017
+NJ,Refuse Trucks,570.168037329,2017
+NY,Refuse Trucks,846.29021214,2017
+PA,Refuse Trucks,1322.467833703,2017
+RI,Refuse Trucks,46.989136969,2017
+VA,Refuse Trucks,17.831741379,2017
+VT,Refuse Trucks,30.274394993,2017
+WV,Refuse Trucks,47.825270870000004,2017
+CT,School Buses,41.435830998,2017
+DC,School Buses,8.226873964000001,2017
+DE,School Buses,39.800917088,2017
+MA,School Buses,271.720288553,2017
+MD,School Buses,466.98015843,2017
+ME,School Buses,242.74879551,2017
+NC,School Buses,807.416142173,2017
+NH,School Buses,106.679990381,2017
+NJ,School Buses,742.268972853,2017
+NY,School Buses,1243.812760715,2017
+PA,School Buses,455.551742543,2017
+RI,School Buses,75.298329101,2017
+VA,School Buses,448.301703239,2017
+VT,School Buses,94.399135055,2017
+WV,School Buses,37.413898349,2017
+CT,Single Unit Long-haul Trucks,55.939201364,2017
+DC,Single Unit Long-haul Trucks,24.064703435,2017
+DE,Single Unit Long-haul Trucks,87.161956941,2017
+MA,Single Unit Long-haul Trucks,337.158794741,2017
+MD,Single Unit Long-haul Trucks,188.715091998,2017
+ME,Single Unit Long-haul Trucks,115.657847599,2017
+NC,Single Unit Long-haul Trucks,242.980327552,2017
+NH,Single Unit Long-haul Trucks,120.636394685,2017
+NJ,Single Unit Long-haul Trucks,1098.3930464300001,2017
+NY,Single Unit Long-haul Trucks,1679.14591386,2017
+PA,Single Unit Long-haul Trucks,572.057317068,2017
+RI,Single Unit Long-haul Trucks,42.689221969,2017
+VA,Single Unit Long-haul Trucks,1227.82642397,2017
+VT,Single Unit Long-haul Trucks,70.536360826,2017
+WV,Single Unit Long-haul Trucks,1160.377364779,2017
+CT,Single Unit Short-haul Trucks,535.11820509,2017
+DC,Single Unit Short-haul Trucks,245.950718668,2017
+DE,Single Unit Short-haul Trucks,771.3281291760001,2017
+MA,Single Unit Short-haul Trucks,5317.63589262,2017
+MD,Single Unit Short-haul Trucks,3450.01191686,2017
+ME,Single Unit Short-haul Trucks,1560.4997477699999,2017
+NC,Single Unit Short-haul Trucks,2970.43672679,2017
+NH,Single Unit Short-haul Trucks,1712.39910197,2017
+NJ,Single Unit Short-haul Trucks,4056.0278875,2017
+NY,Single Unit Short-haul Trucks,10190.9987913,2017
+PA,Single Unit Short-haul Trucks,11261.667124900001,2017
+RI,Single Unit Short-haul Trucks,521.72545146,2017
+VA,Single Unit Short-haul Trucks,2270.17020956,2017
+VT,Single Unit Short-haul Trucks,117.49020466500001,2017
+WV,Single Unit Short-haul Trucks,576.229148297,2017
+CT,Transit Buses,17.671648507,2017
+DC,Transit Buses,123.351107391,2017
+DE,Transit Buses,99.93730305,2017
+MA,Transit Buses,1040.1436455799999,2017
+MD,Transit Buses,253.40948271,2017
+ME,Transit Buses,157.01273682,2017
+NC,Transit Buses,1040.94834845,2017
+NH,Transit Buses,406.0841416,2017
+NJ,Transit Buses,1380.9146638,2017
+NY,Transit Buses,1432.38381713,2017
+PA,Transit Buses,1620.2688802,2017
+RI,Transit Buses,28.430827191,2017
+VA,Transit Buses,2272.0077768,2017
+VT,Transit Buses,129.74249433,2017
+WV,Transit Buses,161.77393965000002,2017
+CT,Combination Long-haul Trucks,5479.888,2014
+CT,Combination Short-haul Trucks,1386.6299,2014
+CT,Light Commercial Trucks,235.20229,2014
+CT,Passenger Trucks,585.7737,2014
+CT,Single Unit Long-haul Trucks,52.60431,2014
+CT,Intercity Buses,151.2691,2014
+CT,Passenger Cars,120.37511,2014
+CT,School Buses,55.18836,2014
+CT,Transit Buses,38.342464,2014
+CT,Motor Homes,8.712644,2014
+CT,Refuse Trucks,75.44936,2014
+CT,Single Unit Short-haul Trucks,674.2739,2014
+DC,Combination Long-haul Trucks,184.26,2014
+DC,Combination Short-haul Trucks,140.063,2014
+DC,Light Commercial Trucks,54.6095,2014
+DC,Passenger Trucks,18.1954,2014
+DC,Single Unit Long-haul Trucks,32.3972,2014
+DC,Intercity Buses,174.19,2014
+DC,Passenger Cars,16.8719,2014
+DC,School Buses,8.10048,2014
+DC,Transit Buses,220.755,2014
+DC,Motor Homes,3.62593,2014
+DC,Refuse Trucks,42.1998,2014
+DC,Single Unit Short-haul Trucks,440.596,2014
+DE,Combination Long-haul Trucks,1751.046,2014
+DE,Combination Short-haul Trucks,826.082,2014
+DE,Light Commercial Trucks,58.3748,2014
+DE,Passenger Trucks,217.0236,2014
+DE,Single Unit Long-haul Trucks,26.8818,2014
+DE,Intercity Buses,312.2809,2014
+DE,Passenger Cars,28.5493,2014
+DE,School Buses,76.81005,2014
+DE,Transit Buses,287.6683,2014
+DE,Motor Homes,4.981445,2014
+DE,Refuse Trucks,14.19725,2014
+DE,Single Unit Short-haul Trucks,304.5428,2014
+MA,Combination Long-haul Trucks,8012.68675,2014
+MA,Combination Short-haul Trucks,3992.05098,2014
+MA,Light Commercial Trucks,292.315163,2014
+MA,Passenger Trucks,720.74332,2014
+MA,Single Unit Long-haul Trucks,77.5650138,2014
+MA,Intercity Buses,166.5719725,2014
+MA,Passenger Cars,111.438495,2014
+MA,School Buses,55.43818,2014
+MA,Transit Buses,206.1147726,2014
+MA,Motor Homes,22.3934018,2014
+MA,Refuse Trucks,95.2700233,2014
+MA,Single Unit Short-haul Trucks,1250.822637,2014
+MD,Combination Long-haul Trucks,20346.2835,2014
+MD,Combination Short-haul Trucks,3784.8816,2014
+MD,Light Commercial Trucks,415.77089,2014
+MD,Passenger Trucks,1385.2359,2014
+MD,Single Unit Long-haul Trucks,285.25785,2014
+MD,Intercity Buses,919.49702,2014
+MD,Passenger Cars,220.612082,2014
+MD,School Buses,632.82151,2014
+MD,Transit Buses,465.190476,2014
+MD,Motor Homes,49.349008,2014
+MD,Refuse Trucks,394.883087,2014
+MD,Single Unit Short-haul Trucks,5545.137,2014
+ME,Combination Long-haul Trucks,5611.7754,2014
+ME,Combination Short-haul Trucks,1457.3407,2014
+ME,Light Commercial Trucks,77.83757,2014
+ME,Passenger Trucks,394.35896,2014
+ME,Single Unit Long-haul Trucks,225.127145,2014
+ME,Intercity Buses,492.31845,2014
+ME,Passenger Cars,50.91251,2014
+ME,School Buses,345.39237,2014
+ME,Transit Buses,290.98616,2014
+ME,Motor Homes,17.449234,2014
+ME,Refuse Trucks,285.1109,2014
+ME,Single Unit Short-haul Trucks,1906.5963,2014
+NC,Combination Long-haul Trucks,24648.7166,2014
+NC,Combination Short-haul Trucks,11708.42833,2014
+NC,Light Commercial Trucks,859.452567,2014
+NC,Passenger Trucks,3709.9013,2014
+NC,Single Unit Long-haul Trucks,321.272675,2014
+NC,Intercity Buses,5699.835387,2014
+NC,Passenger Cars,280.8792379,2014
+NC,School Buses,1490.73819,2014
+NC,Transit Buses,787.106592,2014
+NC,Motor Homes,56.8437938,2014
+NC,Refuse Trucks,476.690285,2014
+NC,Single Unit Short-haul Trucks,4526.68692,2014
+NH,Combination Long-haul Trucks,3394.4824,2014
+NH,Combination Short-haul Trucks,77.53147,2014
+NH,Light Commercial Trucks,89.00437,2014
+NH,Passenger Trucks,321.8166,2014
+NH,Single Unit Long-haul Trucks,191.37609,2014
+NH,Intercity Buses,112.48094,2014
+NH,Passenger Cars,42.149832,2014
+NH,School Buses,130.67224,2014
+NH,Transit Buses,394.5247,2014
+NH,Motor Homes,38.05407,2014
+NH,Refuse Trucks,236.41995,2014
+NH,Single Unit Short-haul Trucks,1678.6121,2014
+NJ,Combination Long-haul Trucks,11634.223,2014
+NJ,Combination Short-haul Trucks,2044.8151,2014
+NJ,Light Commercial Trucks,705.96586,2014
+NJ,Passenger Trucks,742.32,2014
+NJ,Single Unit Long-haul Trucks,2222.387,2014
+NJ,Intercity Buses,4770.4917,2014
+NJ,Passenger Cars,81.19433,2014
+NJ,School Buses,2379.1573,2014
+NJ,Transit Buses,2042.9975,2014
+NJ,Motor Homes,141.535408,2014
+NJ,Refuse Trucks,2074.3938,2014
+NJ,Single Unit Short-haul Trucks,6366.3143,2014
+NY,Combination Long-haul Trucks,18022.7391,2014
+NY,Combination Short-haul Trucks,4867.44703,2014
+NY,Light Commercial Trucks,2026.62013,2014
+NY,Passenger Trucks,1119.58482,2014
+NY,Single Unit Long-haul Trucks,1504.949243,2014
+NY,Intercity Buses,4402.52214,2014
+NY,Passenger Cars,322.686879,2014
+NY,School Buses,4313.97118,2014
+NY,Transit Buses,6132.396479,2014
+NY,Motor Homes,116.161303,2014
+NY,Refuse Trucks,2551.570267,2014
+NY,Single Unit Short-haul Trucks,23694.3324,2014
+PA,Combination Long-haul Trucks,56567.0506,2014
+PA,Combination Short-haul Trucks,11997.12296,2014
+PA,Light Commercial Trucks,792.922471,2014
+PA,Passenger Trucks,2661.43642,2014
+PA,Single Unit Long-haul Trucks,670.818131,2014
+PA,Intercity Buses,220.188724,2014
+PA,Passenger Cars,245.4797511,2014
+PA,School Buses,603.620246,2014
+PA,Transit Buses,2609.605814,2014
+PA,Motor Homes,273.033984,2014
+PA,Refuse Trucks,1791.628275,2014
+PA,Single Unit Short-haul Trucks,13462.23316,2014
+RI,Combination Long-haul Trucks,3543.1426,2014
+RI,Combination Short-haul Trucks,1130.4047,2014
+RI,Light Commercial Trucks,58.25004,2014
+RI,Passenger Trucks,107.41281,2014
+RI,Single Unit Long-haul Trucks,74.47458,2014
+RI,Intercity Buses,187.59585,2014
+RI,Passenger Cars,20.340574,2014
+RI,School Buses,100.38787,2014
+RI,Transit Buses,45.63979,2014
+RI,Motor Homes,16.866307,2014
+RI,Refuse Trucks,104.51547,2014
+RI,Single Unit Short-haul Trucks,1137.7396,2014
+VA,Combination Long-haul Trucks,22192.90464,2014
+VA,Combination Short-haul Trucks,18399.41982,2014
+VA,Light Commercial Trucks,710.165072,2014
+VA,Passenger Trucks,2685.578352,2014
+VA,Single Unit Long-haul Trucks,1169.010064,2014
+VA,Intercity Buses,2203.129112,2014
+VA,Passenger Cars,250.6006482,2014
+VA,School Buses,1394.664658,2014
+VA,Transit Buses,344.7236355,2014
+VA,Motor Homes,90.1196886,2014
+VA,Refuse Trucks,298.6225466,2014
+VA,Single Unit Short-haul Trucks,3264.797179,2014
+VT,Combination Long-haul Trucks,1239.06506,2014
+VT,Combination Short-haul Trucks,893.94491,2014
+VT,Light Commercial Trucks,53.704518,2014
+VT,Passenger Trucks,229.22186,2014
+VT,Single Unit Long-haul Trucks,95.266897,2014
+VT,Intercity Buses,78.55475,2014
+VT,Passenger Cars,27.999448,2014
+VT,School Buses,279.09066,2014
+VT,Transit Buses,59.298047,2014
+VT,Motor Homes,16.826167,2014
+VT,Refuse Trucks,26.039798,2014
+VT,Single Unit Short-haul Trucks,154.54153,2014
+WV,Combination Long-haul Trucks,8837.59133,2014
+WV,Combination Short-haul Trucks,6354.39185,2014
+WV,Light Commercial Trucks,159.02076,2014
+WV,Passenger Trucks,836.80618,2014
+WV,Single Unit Long-haul Trucks,2255.5116,2014
+WV,Intercity Buses,839.943516,2014
+WV,Passenger Cars,37.6898846,2014
+WV,School Buses,344.63778,2014
+WV,Transit Buses,142.326245,2014
+WV,Motor Homes,19.8796242,2014
+WV,Refuse Trucks,156.020724,2014
+WV,Single Unit Short-haul Trucks,1043.93741,2014
