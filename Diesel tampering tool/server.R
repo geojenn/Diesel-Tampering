@@ -185,7 +185,7 @@ shinyServer(function(input, output, session) {
       pivot_longer(cols = c("tampered_value", "ev_value", "Value"), names_to = "Type") 
     
     data$Type %<>% as.factor()
-    data$Type %<>% fct_relevel("Value", "tampered_value", "ev_value")
+    data$Type %<>% fct_relevel("Value", "ev_value", "tampered_value")
 
     
     data %<>%
@@ -207,9 +207,9 @@ shinyServer(function(input, output, session) {
               legend.text = element_text(size = 14),
               legend.position="bottom")+
         labs(title = "Annual NOx emissions by state for the selected vehicle type(s) (tons/year)", x = "", y = "", fill = "")+
-        scale_fill_manual(values=c("#c9c9cb", "#01888b", "#00e58f"), 
+        scale_fill_manual(values=c("#b4b4b6", "#4cad7c", "#006060"), 
                           name="",
-                          breaks=c("Value", "tampered_value", "ev_value"),
+                          breaks=c("Value", "ev_value", "tampered_value"),
                           labels=c("2017 NEI NOx (tons/year)", "Estimated NOx with tampering (tons/year)", "Estimated NOx with tampering and electric vehicle offset (tons/year)"))+
         geom_text(aes(label = round(sum), 
                       group=Type),size=4.5, vjust=-.1, hjust=-.1,angle=0, position = position_dodge2(width = .9, padding = .2))+
@@ -231,7 +231,7 @@ shinyServer(function(input, output, session) {
               legend.text = element_text(size = 14),
               legend.position="bottom")+
        labs(title = "Annual NOx emissions by state for the selected vehicle type(s) (tons/year)", x = "", y = "", fill = "")+
-        scale_fill_manual(values=c("#c9c9cb", "#01888b", "#00e58f" ), 
+        scale_fill_manual(values=c("#b4b4b6", "#006060", "#4cad7c"), 
                           name="",
                           breaks=c("Value", "tampered_value", "ev_value"),
                           labels=c("2017 NEI NOx", "Estimated NOx with tampering", "Estimated NOx with tampering and electric vehicle offset"))+
@@ -256,7 +256,7 @@ data_pm <- read_csv("data/HDD_shiny_data_PM1.csv")
       pivot_longer(cols = c("tampered_value", "ev_value", "Value"), names_to = "Type") 
     
     data_pm$Type %<>% as.factor()
-    data_pm$Type %<>% fct_relevel("Value", "tampered_value", "ev_value")
+    data_pm$Type %<>% fct_relevel("Value", "ev_value", "tampered_value")
     
     data_pm %<>%
       group_by(State, Type) %>% summarise(sum = sum(value)) 
@@ -276,9 +276,9 @@ data_pm <- read_csv("data/HDD_shiny_data_PM1.csv")
               legend.text = element_text(size = 14),
               legend.position="bottom")+
         labs(title = "Annual PM emissions by state for the selected vehicle type(s) (tons/year)", x = "", y = "", fill = "")+
-        scale_fill_manual(values=c("#c9c9cb", "#ad4f4d", "#38d5d8"), 
+        scale_fill_manual(values=c("#b4b4b6", "#6696c7", "#003061"), 
                           name="",
-                          breaks=c("Value", "tampered_value", "ev_value"),
+                          breaks=c("Value", "ev_value", "tampered_value"),
                           labels=c("2017 NEI PM2.5", "Estimated PM2.5 with tampering", "Estimated PM2.5 with tampering and electric vehicle offset"))+
         geom_text(aes(label = round(sum), 
                       group=Type),size=4.5, vjust=-.1, hjust=-.1,angle=0,position = position_dodge2(width = .9, padding = .2))+
@@ -300,9 +300,9 @@ data_pm <- read_csv("data/HDD_shiny_data_PM1.csv")
               legend.text = element_text(size = 14),
               legend.position="bottom")+
         labs(title = "Annual PM emissions by state for the selected vehicle type(s) (tons/year)", x = "", y = "", fill = "")+
-        scale_fill_manual(values=c("#c9c9cb", "#ad4f4d", "#38d5d8"), 
+        scale_fill_manual(values=c("#b4b4b6", "#6696c7", "#003061"), 
                           name="",
-                          breaks=c("Value", "tampered_value", "ev_value"),
+                          breaks=c("Value", "ev_value", "tampered_value"),
                           labels=c("2017 NEI PM2.5", "Estimated PM2.5 with tampering", "Estimated PM2.5 with tampering and electric vehicle offset"))+
         geom_text(aes(label = round(sum), 
                       group=Type),size=4.5, vjust=-.1, hjust=-.1,angle=0,position = position_dodge2(width = .9, padding = .2))+
