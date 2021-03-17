@@ -1,4 +1,4 @@
-![alt text](https://github.com/geojenn/Diesel-Tampering/Diesel tampering tool/tree/main/Diesel tampering tool/www/MARAMA_logo_small2.png?raw=true)
+![alt text](https://github.com/geojenn/Diesel-Tampering/Diesel-tampering-tool/www/MARAMA_logo_small2.png?raw=true)
 
 # Diesel Tampering
  
