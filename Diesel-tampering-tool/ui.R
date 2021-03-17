@@ -180,14 +180,14 @@ shinyUI(fluidPage(theme = shinytheme("simplex"),
                                                  NULL,
                                                  FALSE),
                                      numericInput("tampered_factor_allyears",
-                                                  "Tampering increases PM2.5 emissions by this factor:",
-                                                  value = 1)),
+                                                  "Tampering increases NOx emissions by this factor:",
+                                                  value = 310)),
                               column(8,
                                      plotOutput("distPlot_allyears", height = "435px")),
                               
                               column(2,
-                                     sliderInput("percent_tampered_2011",
-                                                 "Percentage of fleet with tampered emissions control equipment in 2011:",
+                                     sliderInput("percent_tampered_2017",
+                                                 "Percentage of fleet with tampered emissions control equipment in 2017:",
                                                  min = 0,
                                                  max = 100,
                                                  value = 0),
@@ -196,8 +196,8 @@ shinyUI(fluidPage(theme = shinytheme("simplex"),
                                                  min = 0,
                                                  max = 100,
                                                  value = 0),
-                                     sliderInput("percent_tampered_2017",
-                                                 "Percentage of fleet with tampered emissions control equipment in 2017:",
+                                     sliderInput("percent_tampered_2011",
+                                                 "Percentage of fleet with tampered emissions control equipment in 2011:",
                                                  min = 0,
                                                  max = 100,
                                                  value = 0)
@@ -209,7 +209,11 @@ shinyUI(fluidPage(theme = shinytheme("simplex"),
                    ),
                    tabPanel("Info",
                             img(src = "EPA_estimated_increase_delete.png"),
-                            uiOutput("info"))
+                            uiOutput("info1"),
+                            uiOutput("info2"),
+                            uiOutput("info3"),
+                            uiOutput("info4")
+                            )
                   
   
   

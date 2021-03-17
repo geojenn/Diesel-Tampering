@@ -16,18 +16,22 @@ shinyServer(function(input, output, session) {
   url3 <-a("click here.", href="https://www.northeastdiesel.org/tampering.html")
   url4 <- a("click here.", href="https://cleanairact.org/wp-content/uploads/2019/09/Tampering-and-Aftermarket-Defeat-Devices-Phil-Brooks.pdf")
  
-  output$info <- renderUI({
+  output$info1 <- renderUI({
     tagList("For more information from the US EPA regarding after-market defeat devices: ", url1)
-    
-    tagList("To learn about the Mid-Atlantic Diesel Collaborative, ", url2)
-            
-    tagList("To learn about tampering from the Northeast Diesel Collaborative", url3)
-    
-    tagList("Presentation: 'Tampering and after-market defeat devices' by Phillip Brooks, Air Enforcement Division, EPA - August 2019", url4)
 
   })
-  
-
+  output$info2 <- renderUI({
+    tagList("To learn about the Mid-Atlantic Diesel Collaborative, ", url2)
+    
+  })
+  output$info3 <- renderUI({
+    tagList("To learn about tampering from the Northeast Diesel Collaborative", url3)
+    
+  })  
+  output$info4 <- renderUI({
+    tagList("Presentation: 'Tampering and after-market defeat devices' by Phillip Brooks, Air Enforcement Division, EPA - August 2019", url4)
+    
+  })
 # select/deselect all buttons ----------------------------------------------
   
   observe({
@@ -207,9 +211,9 @@ shinyServer(function(input, output, session) {
               legend.text = element_text(size = 14),
               legend.position="bottom")+
         labs(title = "Annual NOx emissions by state for the selected vehicle type(s) (tons/year)", x = "", y = "", fill = "")+
-        scale_fill_manual(values=c("#b4b4b6", "#4cad7c", "#006060"), 
+        scale_fill_manual(values=c("#b4b4b6", "#006060", "#4cad7c"), 
                           name="",
-                          breaks=c("Value", "ev_value", "tampered_value"),
+                          breaks=c("Value", "tampered_value", "ev_value"),
                           labels=c("2017 NEI NOx (tons/year)", "Estimated NOx with tampering (tons/year)", "Estimated NOx with tampering and electric vehicle offset (tons/year)"))+
         geom_text(aes(label = round(sum), 
                       group=Type),size=4.5, vjust=-.1, hjust=-.1,angle=0, position = position_dodge2(width = .9, padding = .2))+
@@ -360,11 +364,12 @@ data_pm <- read_csv("data/HDD_shiny_data_PM1.csv")
     data_allyears %>%
       ggplot(aes(Year, sum))+
       geom_col(aes(fill = Type), position = "dodge")+
+      theme_minimal()+
       theme(axis.text.x = element_text(size = 14),
             axis.text.y = element_text(size = 14),
             legend.text = element_text(size = 14),
             legend.position="bottom")+
-      scale_fill_manual(values=c("#c9c9cb", "#01888b"), 
+      scale_fill_manual(values=c("#b4b4b6", "#006060"), 
                         name="",
                         breaks=c("Value", "tampered_value"),
                         labels=c("Annual NEI NOx (tons)", "Estimated annual NOx (tons) with tampering"))+
@@ -374,7 +379,6 @@ data_pm <- read_csv("data/HDD_shiny_data_PM1.csv")
            y = "",
            fill = "")+
       geom_text(aes(label = round(sum)),size=4.5, vjust=.3, hjust=-.1,angle=0, position = position_dodge2(width = .9, padding = .2))+
-      theme_minimal()+
       ylim(0, max(data_allyears$sum) *1.03)+
       coord_flip()
 
