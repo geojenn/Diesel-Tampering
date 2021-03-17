@@ -1,4 +1,4 @@
-| 								Mid-Atlantic Regional Air Management Association (MARAMA) | ![logo](https://github.com/geojenn/Diesel-Tampering/blob/main/Diesel-tampering-tool/www/MARAMA_logo_small2.png)
+![logo](https://github.com/geojenn/Diesel-Tampering/blob/main/Diesel-tampering-tool/www/MARAMA_logo_small2.png)
 
 # Diesel Tampering
  
