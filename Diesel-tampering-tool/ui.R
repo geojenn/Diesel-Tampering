@@ -88,6 +88,68 @@ shinyUI(fluidPage(theme = shinytheme("simplex"),
                                 )
                     ),
                    
+                   tabPanel("2017 NEI VOC",
+                            fluidRow(
+                              
+                              column(8,plotOutput("distPlotVOC", height = "825px")),
+                              
+                              column(4,
+                                     sliderInput("percent_tampered_VOC",
+                                                 "Percentage of fleet with tampered emissions control equipment (approx.):",
+                                                 min = 0,
+                                                 max = 100,
+                                                 value = 0),
+                                     numericInput("tampered_factor_VOC",
+                                                  "Tampering increases VOC emissions by this factor (approx.):",
+                                                  value = 1140),
+                                     checkboxInput("ev_opt_VOC",
+                                                   "Estimate electric vehicle offset?",
+                                                   value = FALSE),
+                                     sliderInput("percent_ev_VOC",
+                                                 "Percentage of un-tampered fleet to be replaced with electric vehicles:",
+                                                 min = 0,
+                                                 max = 100,
+                                                 value = 0),
+                                     #numericInput("scale_pm",
+                                     #            "Y-axis max limit:",
+                                     #            value = 1000),
+                                     
+                                     
+                                     
+                                     checkboxGroupInput("States_VOC", 
+                                                        
+                                                        "Choose state(s) to display:",
+                                                        
+                                                        c("CT" = "CT", "DC" = "DC", "DE" = "DE", "MA" = "MA", "MD" = "MD",
+                                                          "ME" = "ME", "NC" = "NC", "NH" = "NH", "NJ" = "NJ", "NY" = "NY",
+                                                          "PA" = "PA", "RI" = "RI", "VA" = "VA", "VT" = "VT", "WV" = "WV"),
+                                                        c("DC" = "DC", "DE" = "DE", "MD" = "MD",
+                                                          "NC" = "NC", "NJ" = "NJ","PA" = "PA", 
+                                                          "VA" = "VA", "WV" = "WV"),
+                                                        TRUE),
+                                     actionButton("selectall_states_VOC", label="Select/deselect all states"),                  
+                                     checkboxGroupInput("Vehicle_type_VOC", 
+                                                        
+                                                        "Choose vehicle type(s) to display:",
+                                                        c("Combination Long-haul Trucks",
+                                                          "Refuse Trucks",
+                                                          "Transit Buses",
+                                                          "Combination Short-haul Trucks",
+                                                          "Intercity Buses",
+                                                          "Passenger Cars",
+                                                          "Single Unit Long-haul Trucks",
+                                                          "Light Commercial Trucks",
+                                                          "Passenger Trucks",
+                                                          "Single Unit Short-haul Trucks"),
+                                                        c("Combination Long-haul Trucks"),
+                                                        TRUE),
+                                     
+                                     actionButton("selectall_vehicle_VOC", label="Select/deselect all vehicle types"),
+                                     
+                                     tableOutput("contents_VOC"))
+                            )
+                   ),
+                   
                    tabPanel("2017 NEI PM2.5",
                             fluidRow(
                               
