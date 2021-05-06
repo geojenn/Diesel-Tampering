@@ -349,7 +349,7 @@ data_VOC <- read_csv("data/nei_diesel_voc17_shiny.csv")
               legend.text = element_text(size = 14),
               legend.position="bottom")+
         labs(title = "Annual VOC emissions by state for the selected vehicle type(s) (tons/year)", x = "", y = "", fill = "")+
-        scale_fill_manual(values=c("#b4b4b6", "#6696c7", "#003061"), 
+        scale_fill_manual(values=c("#b4b4b6", "#6696c7", "#39224F"), 
                           name="",
                           breaks=c("Value", "ev_value", "tampered_value"),
                           labels=c("2017 NEI PM2.5", "Estimated VOC with tampering", "Estimated VOC with tampering and electric vehicle offset"))+
@@ -373,14 +373,14 @@ data_VOC <- read_csv("data/nei_diesel_voc17_shiny.csv")
               legend.text = element_text(size = 14),
               legend.position="bottom")+
         labs(title = "Annual VOC emissions by state for the selected vehicle type(s) (tons/year)", x = "", y = "", fill = "")+
-        scale_fill_manual(values=c("#b4b4b6", "#6696c7", "#003061"), 
+        scale_fill_manual(values=c("#b4b4b6", "#6696c7", "#39224F"), 
                           name="",
                           breaks=c("Value", "ev_value", "tampered_value"),
                           labels=c("2017 NEI VOC", "Estimated VOC with tampering", "Estimated VOC with tampering and electric vehicle offset"))+
         geom_text(aes(label = round(sum), 
                       group=Type),size=4.5, vjust=-.1, hjust=-.1,angle=0,position = position_dodge2(width = .9, padding = .2))+
         coord_flip()+
-        ylim(0, max(data_pm$sum *1.03))
+        ylim(0, max(data_VOC$sum *1.03))
       
       print(plot_VOC)
     }
@@ -474,6 +474,16 @@ data_VOC <- read_csv("data/nei_diesel_voc17_shiny.csv")
       mutate(tampered_value = Value * (1 - input$percent_tampered_pm / 100) + (Value * input$tampered_factor_pm) * input$percent_tampered_pm / 100,
              ev_value = Value * (1 - input$percent_tampered_pm / 100 - input$percent_ev_pm/100) + (Value * input$tampered_factor_pm) * input$percent_tampered_pm / 100 +  (Value * -1) * input$percent_ev_pm/100)
 
+  })
+  
+  output$contents_VOC <- renderTable({
+    
+    data_VOC %<>% 
+      filter(Vehicle_type %in% input$Vehicle_type_VOC)  %>% 
+      filter(State %in% input$States_VOC) %>%
+      mutate(tampered_value = Value * (1 - input$percent_tampered_VOC / 100) + (Value * input$tampered_factor_VOC) * input$percent_tampered_VOC / 100,
+             ev_value = Value * (1 - input$percent_tampered_VOC / 100 - input$percent_ev_VOC/100) + (Value * input$tampered_factor_VOC) * input$percent_tampered_VOC / 100 +  (Value * -1) * input$percent_ev_VOC/100)
+    
   })
   
 
